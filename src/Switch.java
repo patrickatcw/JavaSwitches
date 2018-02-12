@@ -2,7 +2,7 @@ public class Switch {
 
     public static void main(String[] args) {
 
-      String carMake = "gm";
+      String carMake = "yugo";
       switch(carMake.toUpperCase()) {
 
           case "Chevy":
