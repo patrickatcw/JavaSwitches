@@ -26,4 +26,4 @@ public class Switch {
 
 }
 
-//result was The car make is a GM
+//result was Car make not included for test
