@@ -2,7 +2,7 @@ public class Switch {
 
     public static void main(String[] args) {
 
-        int switchValue = 1;    //var
+        int switchValue = 5;    //var
 
         switch(switchValue) {
 
@@ -36,4 +36,8 @@ public class Switch {
     }
 
 }
-//result is The number is 1
+
+/*int switchValue = 5;
+result;
+        The number was a 5, 6, or 7
+        The number was actually a 5*/
