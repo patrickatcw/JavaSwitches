@@ -2,7 +2,7 @@ public class Switch {
 
     public static void main(String[] args) {
 
-       char switchLetter = 'A';
+       char switchLetter = 'D';
 
        switch(switchLetter) {
 
@@ -22,4 +22,4 @@ public class Switch {
 
 }
 
-//result was The letter was A
+//result was The letter was either a C or D
