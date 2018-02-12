@@ -2,27 +2,28 @@ public class Switch {
 
     public static void main(String[] args) {
 
-        char switchLetter = 'Z';
+      String carMake = "gm";
+      switch(carMake.toUpperCase()) {
 
-        switch(switchLetter) {
+          case "Chevy":
+              System.out.println("The car make is a Chevy");
+              break;
 
-            case 'A':
-                System.out.println("The letter was an A");
-                break;
+          case "Ford":
+              System.out.println("The car make is a Ford");
+              break;
 
-            case 'B':
-                System.out.println("The letter was a B");
+          case "GM":
+              System.out.println("The car make is a GM");
+              break;
 
-            case 'C': case 'D':
-                System.out.println("The letter was either a C or D");
+          default:
+              System.out.println("Car make not included for test");
 
-            default:
-                System.out.println("Letter not included in testing case");
-
-        }
+      }
 
     }
 
 }
 
-//result was Letter not included in testing case
+//result was The car make is a GM
