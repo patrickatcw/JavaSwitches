@@ -2,7 +2,7 @@ public class Switch {
 
     public static void main(String[] args) {
 
-        int switchValue = 5;    //var
+        int switchValue = 10;    //var
 
         switch(switchValue) {
 
@@ -37,7 +37,8 @@ public class Switch {
 
 }
 
-/*int switchValue = 5;
+/*int switchValue = 10;
 result;
-        The number was a 5, 6, or 7
-        The number was actually a 5*/
+The number was not any of the case test numbers
+The number was actually 10
+*/
